@@ -1,0 +1,12 @@
+[package]
+name = "BfComp"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cranelift = "*"
+cranelift-codegen = "*"
+cranelift-module = "*"
+cranelift-object = "*"
+cranelift-native = "*"
+thiserror = "1.0.63"
